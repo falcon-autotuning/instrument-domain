@@ -1,0 +1,9 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libdir=@CMAKE_INSTALL_FULL_LIBDIR@
+includedir=@CMAKE_INSTALL_FULL_INCLUDEDIR@
+Name: instrument-domain
+Description: A instrument domain implemenation in C99 for use by Cpp, Go, and Lua
+Version: @PROJECT_VERSION@
+Libs: -L${libdir} -linstrument-domain
+Cflags: -I${includedir}

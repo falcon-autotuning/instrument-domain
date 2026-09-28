@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/tylerk/falcon-dev/instrument-domain/build/linux-clang-debug",
+  "command": "/usr/bin/clang -Dinstrument_domain_EXPORTS -I/home/tylerk/falcon-dev/instrument-domain/include -I/home/tylerk/falcon-dev/instrument-domain/build/linux-clang-debug/include -fsanitize=address -fno-omit-frame-pointer -g -g -std=gnu99 -fPIC -fvisibility=hidden -o CMakeFiles/instrument-domain.dir/src/instrument-domain.c.o -c /home/tylerk/falcon-dev/instrument-domain/src/instrument-domain.c",
+  "file": "/home/tylerk/falcon-dev/instrument-domain/src/instrument-domain.c",
+  "output": "/home/tylerk/falcon-dev/instrument-domain/build/linux-clang-debug/CMakeFiles/instrument-domain.dir/src/instrument-domain.c.o"
+},
+{
+  "directory": "/home/tylerk/falcon-dev/instrument-domain/build/linux-clang-debug",
+  "command": "/usr/bin/clang -DBUILD_LUA_BINDINGS -Dinstrument_domain_lua_EXPORTS -I/home/tylerk/falcon-dev/instrument-domain/include -I/home/tylerk/falcon-dev/instrument-domain/build/linux-clang-debug/include -isystem /home/tylerk/falcon-dev/instrument-domain/vcpkg_installed/x64-linux-dynamic/include -fsanitize=address -fno-omit-frame-pointer -g -g -std=gnu99 -fPIC -fvisibility=hidden -o CMakeFiles/instrument-domain-lua.dir/src/instrument-domain-lua.c.o -c /home/tylerk/falcon-dev/instrument-domain/src/instrument-domain-lua.c",
+  "file": "/home/tylerk/falcon-dev/instrument-domain/src/instrument-domain-lua.c",
+  "output": "/home/tylerk/falcon-dev/instrument-domain/build/linux-clang-debug/CMakeFiles/instrument-domain-lua.dir/src/instrument-domain-lua.c.o"
+},
+{
+  "directory": "/home/tylerk/falcon-dev/instrument-domain/build/linux-clang-debug",
+  "command": "/usr/bin/clang -I/home/tylerk/falcon-dev/instrument-domain/include -I/home/tylerk/falcon-dev/instrument-domain/build/linux-clang-debug/include -isystem /home/tylerk/falcon-dev/instrument-domain/vcpkg_installed/x64-linux-dynamic/include -fsanitize=address -fno-omit-frame-pointer -g -g -std=gnu99 -fvisibility=hidden -o tests/CMakeFiles/test_instrument_domain.dir/test_instrument_domain.c.o -c /home/tylerk/falcon-dev/instrument-domain/tests/test_instrument_domain.c",
+  "file": "/home/tylerk/falcon-dev/instrument-domain/tests/test_instrument_domain.c",
+  "output": "/home/tylerk/falcon-dev/instrument-domain/build/linux-clang-debug/tests/CMakeFiles/test_instrument_domain.dir/test_instrument_domain.c.o"
+},
+{
+  "directory": "/home/tylerk/falcon-dev/instrument-domain/build/linux-clang-debug",
+  "command": "/usr/bin/clang -I/home/tylerk/falcon-dev/instrument-domain/include -I/home/tylerk/falcon-dev/instrument-domain/build/linux-clang-debug/include -isystem /home/tylerk/falcon-dev/instrument-domain/vcpkg_installed/x64-linux-dynamic/include -fsanitize=address -fno-omit-frame-pointer -g -g -std=gnu99 -fvisibility=hidden -o tests/CMakeFiles/test_instrument_domain_lua.dir/test_instrument_domain_lua.c.o -c /home/tylerk/falcon-dev/instrument-domain/tests/test_instrument_domain_lua.c",
+  "file": "/home/tylerk/falcon-dev/instrument-domain/tests/test_instrument_domain_lua.c",
+  "output": "/home/tylerk/falcon-dev/instrument-domain/build/linux-clang-debug/tests/CMakeFiles/test_instrument_domain_lua.dir/test_instrument_domain_lua.c.o"
+}
+]
